@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# myenv
+myenv/
+
+# init
+__init__.py

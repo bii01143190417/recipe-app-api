@@ -17,8 +17,8 @@ services:
     environment:
       - DB_HOST=db
       - DB_NAME=devdb
-      - DB_USER=michiyabu
-      - DB_PASS=##devdb
+      - DB_USER=postgres
+      - DB_PASS=password
     depends_on:
       - db
 
@@ -28,8 +28,8 @@ services:
       - dev-db-data:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=devdb
-      - POSTGRES_USER=michiyabu
-      - POSTGRES_PASSWORD=##devdb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
 
 
 volumes:
