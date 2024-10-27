@@ -31,5 +31,6 @@ services:
       - POSTGRES_USER=michiyabu
       - POSTGRES_PASSWORD=##devdb
 
+
 volumes:
   dev-db-data:
